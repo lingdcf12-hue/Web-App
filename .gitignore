@@ -1,0 +1,26 @@
+# Root ignore
+node_modules/
+vendor/
+.env
+.env.local
+dist/
+storage/*.key
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+/public/storage
+/public/hot
+.vscode/
+
+# Ignore nested sensitive files
+**/node_modules/
+**/vendor/
+**/.env
+**/storage/*.key
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/storage/logs/*.log
+**/dist/
+**/.DS_Store
